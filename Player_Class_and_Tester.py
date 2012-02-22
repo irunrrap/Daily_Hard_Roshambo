@@ -10,7 +10,7 @@ class player():
     
     def perform_move(self):
         self.current_move = self.moves[random.randint(1,3)]
-        return(None)
+        return(self.current_move)
 
     def register_win(self):
         self.wins+=1
